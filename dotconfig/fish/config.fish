@@ -41,7 +41,7 @@ alias hfz="mosh delta@home.floof.zone"
 # This is executed when an interactive shell starts
 function fish_greeting -d "Interactive shell startup"
     # variable "USETMUX" determines whether we do this
-    if $USETMUX && test -z $TMUX
+    if test -n $USETMUX && test -z $TMUX
         starship init fish | source
         tmux attach || tmux new
     else
