@@ -42,7 +42,7 @@ alias hfz="mosh delta@home.floof.zone"
 function fish_greeting -d "Interactive shell startup"
     # variable "USETMUX" determines whether we do this
     if test -n $USETMUX && test -z $TMUX
-        starship init fish | source
+        # TODO: Fix this since it always assumes tmux
         tmux attach || tmux new
     else
         shell_init
