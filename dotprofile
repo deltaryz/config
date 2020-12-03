@@ -1,0 +1,11 @@
+alias nano="vim"
+
+alias fz="mosh delta@floof.zone"
+alias cs="mosh delta@cameronseid.com"
+alias hfz="mosh delta@home.floof.zone"
+alias pi4="ssh delta@192.168.1.10"
+
+clear && neofetch
+
+# TODO: ish-specific config, detect if running on ish/alpine
+./keepalive.sh
