@@ -4,6 +4,7 @@ alias fz="mosh delta@floof.zone"
 alias cs="mosh delta@cameronseid.com"
 alias hfz="mosh delta@home.floof.zone"
 alias pi4="ssh delta@192.168.1.10"
+alias pi4wg="ssh delta@10.66.66.1" # wireguard ip of pi 4
 
 clear && neofetch
 
