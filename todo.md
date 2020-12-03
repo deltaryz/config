@@ -7,3 +7,4 @@ misc reminders:
 * startup:
     * `git config --global credential.helper store`
     * install neovim, vim, fish, git, ssh, mosh, npm, node, starship (if possible), neofetch, rsync
+    * install nix (ideally with its own script)
