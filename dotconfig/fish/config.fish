@@ -1,6 +1,6 @@
 # Sources
 
-. /home/delta/.nix-profile/etc/profile.d/nix.sh 
+bash /home/delta/.nix-profile/etc/profile.d/nix.sh 
 
 # Aliases
 
