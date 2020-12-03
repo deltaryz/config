@@ -1,3 +1,7 @@
+# Sources
+
+. /home/delta/.nix-profile/etc/profile.d/nix.sh 
+
 # Aliases
 
 # Command flags
