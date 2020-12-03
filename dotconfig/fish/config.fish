@@ -6,6 +6,10 @@ alias rsync="rsync -av --progress"
 # Programs
 alias vim="nvim"
 alias nano="nvim"
+# Personal servers
+alias fz="ssh delta@floof.zone"
+alias hfz="ssh delta@home.floof.zone"
+alias cs="ssh delta@cameronseid.com"
 
 # Distro-specific config
 set distrostring (cat /etc/issue)
