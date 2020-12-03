@@ -1,9 +1,11 @@
 # Aliases
+
+# Command flags
+alias la="ls -hal"
+alias rsync="rsync -av --progress"
 # Programs
 alias vim="nvim"
 alias nano="nvim"
-# Command flags
-alias la="ls -hal"
 
 # Distro-specific config
 set distrostring (cat /etc/issue)
