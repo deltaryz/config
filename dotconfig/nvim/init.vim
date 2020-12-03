@@ -60,7 +60,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'psliwka/vim-smoothie'
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-tabnine coc-tsserver coc-json coc-git'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-tabnine coc-tsserver coc-json coc-git coc-fish'}
 
 
 " -------

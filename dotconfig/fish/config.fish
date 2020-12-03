@@ -1,6 +1,9 @@
 # Aliases
+# Programs
 alias vim="nvim"
 alias nano="nvim"
+# Command flags
+alias la="ls -hal"
 
 # Distro-specific config
 set distrostring (cat /etc/issue)
@@ -40,19 +43,21 @@ alias hfz="mosh delta@home.floof.zone"
 
 # This is executed when an interactive shell starts
 function fish_greeting -d "Interactive shell startup"
-    # variable "USETMUX" determines whether we do this
-    if test -n $USETMUX && test -z $TMUX
-        # TODO: Fix this since it always assumes tmux
-        tmux attach || tmux new
-    else
-        shell_init
-    end
-end
 
-# Clean up terminal & prepare prompt
-function shell_init -d "Prepare shell/prompt for usage"
-    starship init fish | source
+    # only launch starship if we have it installed
+    if silentexec which starship
+        starship init fish | source
+    end
+
+    # Launch tmux, or connect to an existing session
+    # variable "USETMUX" determines whether we do this
+    if [ -n "$USETMUX" ] && [ -z "$TMUX" ]
+        tmux attach || tmux new
+    end
+
+    # Wipe screen and show neofetch
     clear && neofetch
+
 end
 
 # Permanently add the given argument to PATH
@@ -61,7 +66,15 @@ function addpath -d "Permanently adds the given argument to PATH"
 end
 
 # Set an environment variable permanently
-function addenvvar -d "Permanently sets an environment variable"
+function addenv -d "Permanently sets an environment variable"
     set -U $argv[1] $argv[2]
 end
 
+# Run a command silently
+function silentexec -d "Run a command silently"
+    # TODO: find a way to do this without creating junk files
+    rm -rf ~/.junk && mkdir ~/.junk
+    set temp (mktemp -p ~/.junk)
+    $argv &> $temp
+    return $status
+end
