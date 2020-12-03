@@ -77,11 +77,8 @@ function addenv -d "Permanently sets an environment variable"
     set -U $argv[1] $argv[2]
 end
 
-# Run a command silently
-function silentexec -d "Run a command silently"
-    # TODO: find a way to do this without creating junk files
-    rm -rf ~/.junk && mkdir ~/.junk
-    set temp (mktemp -p ~/.junk)
-    $argv &> $temp
+# Run a command silently, piping output to /dev/null
+function silentexec -d "Run a command silently, piping output to /dev/null"
+    $argv >/dev/null ^&1
     return $status
 end
