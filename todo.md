@@ -6,5 +6,5 @@ use the info in the screenshot to automatically get the correct distro name (fro
 misc reminders:
 * startup:
     * `git config --global credential.helper store`
-    * install neovim, vim, fish, git, ssh, mosh, npm, node, starship (if possible), neofetch, rsync
+    * install neovim, vim, fish, git, ssh, mosh, npm, node, starship (if possible), neofetch, rsync, tar, realpath
     * install nix (ideally with its own script)
