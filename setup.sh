@@ -94,7 +94,6 @@ echo ""
 
 # TODO: Ask user to input what network interface to insert into getip (perhaps show an ifconfig output?)
 # TODO: Automatically install relevant packages & intelligently use the correct package manager/etc depending on the distro the script is running on
-# TODO: symlink from git repo instead of copying
 # TODO: set an envvar when the script has completed successfully to prevent running it again
 # TODO: Show environment variables used for per-system configuration after the script runs (also show them again if the script has already run)
 
