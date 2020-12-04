@@ -1,3 +1,5 @@
+#!/usr/bin/fish
+
 # Sources
 
 # not using nix currently
