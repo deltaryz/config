@@ -2,3 +2,4 @@
 node_modules/
 dotconfig/configstore/
 dotconfig/coc/
+fish_variables
