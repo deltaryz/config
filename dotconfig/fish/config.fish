@@ -1,6 +1,7 @@
 # Sources
 
-bash /home/delta/.nix-profile/etc/profile.d/nix.sh 
+# not using nix currently
+# bash /home/delta/.nix-profile/etc/profile.d/nix.sh 
 
 # Aliases
 
