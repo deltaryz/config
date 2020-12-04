@@ -4,14 +4,16 @@
 clear
 echo "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"
 echo ">> Shell script for automated system configuration"
-echo "deltaryz        https://github.com/deltaryz/config"
+echo "@deltaryz       https://github.com/deltaryz/config"
 echo "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"
 echo ""
 echo "This script must be executed from the repo's root." # TODO: detect this automatically
 echo ""
 echo "* WARNING:"
 echo "This  script  will replace existing  dotfiles  and"
-echo "install new software on your system."
+echo "install new software on your system.  It will also"
+echo "set Git credentials and settings."
+# TODO: --nopersonal flag for something more friendly to people who aren't delta
 echo ""
 echo "Please confirm this potentially destructive action"
 echo ""
