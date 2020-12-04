@@ -1,0 +1,95 @@
+INFO  2020-12-04T00:21:32.462 2774  patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2020-12-04T00:21:33.100 2774  on_process_exit:392: exited: pid=2776 status=0 stoptime=0
+INFO  2020-12-04T00:21:33.294 2774  on_process_exit:392: exited: pid=2778 status=0 stoptime=0
+INFO  2020-12-04T00:21:33.578 2774  on_process_exit:392: exited: pid=2779 status=2 stoptime=0
+INFO  2020-12-04T00:21:33.625 2774  channel_create_event:200: new channel 3 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 3, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.645 2774  channel_create_event:200: new channel 4 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 4, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.668 2774  channel_create_event:200: new channel 5 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 5, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.697 2774  channel_create_event:200: new channel 6 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 6, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.736 2774  channel_create_event:200: new channel 7 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 7, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.771 2774  channel_create_event:200: new channel 8 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 8, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.807 2774  channel_create_event:200: new channel 9 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 9, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.847 2774  channel_create_event:200: new channel 10 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 10, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.889 2774  channel_create_event:200: new channel 11 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 11, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.933 2774  channel_create_event:200: new channel 12 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 12, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:33.979 2774  channel_create_event:200: new channel 13 (function <SNR>9_install[1]..<SNR>9_update_impl[113]..<SNR>9_update_vim[4]..<SNR>9_tick[46]..<SNR>9_spawn[15]..<SNR>9_plug_call:1) : {"id": 13, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:21:34.805 2774  on_process_exit:392: exited: pid=2780 status=0 stoptime=0
+INFO  2020-12-04T00:21:34.857 2774  on_process_exit:392: exited: pid=2796 status=0 stoptime=0
+INFO  2020-12-04T00:21:34.888 2774  on_process_exit:392: exited: pid=2791 status=0 stoptime=0
+INFO  2020-12-04T00:21:34.900 2774  on_process_exit:392: exited: pid=2784 status=0 stoptime=0
+INFO  2020-12-04T00:21:35.025 2774  on_process_exit:392: exited: pid=2782 status=0 stoptime=0
+INFO  2020-12-04T00:21:35.066 2774  on_process_exit:392: exited: pid=2781 status=0 stoptime=0
+INFO  2020-12-04T00:21:35.180 2774  on_process_exit:392: exited: pid=2813 status=0 stoptime=0
+INFO  2020-12-04T00:21:35.300 2774  on_process_exit:392: exited: pid=2800 status=0 stoptime=0
+INFO  2020-12-04T00:21:35.332 2774  on_process_exit:392: exited: pid=2809 status=0 stoptime=0
+INFO  2020-12-04T00:21:39.684 2774  on_process_exit:392: exited: pid=2817 status=0 stoptime=0
+INFO  2020-12-04T00:21:40.197 2774  on_process_exit:392: exited: pid=2805 status=0 stoptime=0
+INFO  2020-12-04T00:21:40.313 2774  on_process_exit:392: exited: pid=2893 status=0 stoptime=0
+INFO  2020-12-04T00:21:40.549 2774  on_process_exit:392: exited: pid=2894 status=0 stoptime=0
+INFO  2020-12-04T00:21:40.704 2774  on_process_exit:392: exited: pid=2895 status=0 stoptime=0
+INFO  2020-12-04T00:21:40.868 2774  on_process_exit:392: exited: pid=2896 status=0 stoptime=0
+INFO  2020-12-04T00:21:40.973 2774  on_process_exit:392: exited: pid=2897 status=0 stoptime=0
+INFO  2020-12-04T00:21:41.083 2774  on_process_exit:392: exited: pid=2898 status=0 stoptime=0
+INFO  2020-12-04T00:21:41.836 2774  on_process_exit:392: exited: pid=2899 status=0 stoptime=0
+INFO  2020-12-04T00:21:42.915 2774  on_process_exit:392: exited: pid=2900 status=0 stoptime=0
+INFO  2020-12-04T00:21:43.773 2774  on_process_exit:392: exited: pid=2907 status=0 stoptime=0
+INFO  2020-12-04T00:21:45.257 2774  on_process_exit:392: exited: pid=2908 status=0 stoptime=0
+INFO  2020-12-04T00:21:45.416 2774  on_process_exit:392: exited: pid=2980 status=0 stoptime=0
+INFO  2020-12-04T00:21:46.338 2774  on_process_exit:392: exited: pid=2981 status=0 stoptime=0
+INFO  2020-12-04T00:21:47.314 2774  main:578: starting main loop
+INFO  2020-12-04T00:22:18.263 2774  patch_terminfo_bugs:1608: Disabling smglr with TERM=xterm for non-xterm.
+INFO  2020-12-04T00:22:18.284 2774  channel_create_event:200: new channel 15 (function gitgutter#all[8]..gitgutter#process_buffer[10]..<SNR>82_setup_path[3]..gitgutter#utility#set_repo_path[12]..gitgutter#async#execute:11) : {"id": 15, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:18.293 2774  on_process_exit:392: exited: pid=3033 status=0 stoptime=0
+INFO  2020-12-04T00:22:18.313 2774  on_process_exit:392: exited: pid=3034 status=0 stoptime=0
+INFO  2020-12-04T00:22:18.329 2774  channel_create_event:200: new channel 16 (function <SNR>85_on_exit_nvim[2]..1[5]..gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 16, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:18.357 2774  on_process_exit:392: exited: pid=3035 status=0 stoptime=0
+INFO  2020-12-04T00:22:23.410 2774  channel_create_event:200: new channel 17 (function airline#extensions#branch#get_head[1]..airline#extensions#branch#head[6]..<SNR>65_update_untracked[38]..airline#async#vcs_untracked[6]..airline#async#nvim_vcs_untracked:19) : {"id": 17, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:23.425 2774  channel_create_event:200: new channel 18 (function airline#extensions#branch#get_head[1]..airline#extensions#branch#head[6]..<SNR>65_update_untracked[42]..airline#async#vcs_clean[6]..airline#async#nvim_vcs_clean:24) : {"id": 18, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:23.447 2774  on_process_exit:392: exited: pid=3044 status=0 stoptime=0
+INFO  2020-12-04T00:22:23.466 2774  on_process_exit:392: exited: pid=3045 status=0 stoptime=0
+INFO  2020-12-04T00:22:25.833 2774  channel_create_event:200: new channel 19 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 19, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:25.855 2774  on_process_exit:392: exited: pid=3054 status=0 stoptime=0
+INFO  2020-12-04T00:22:26.273 2774  channel_create_event:200: new channel 20 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 20, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:26.295 2774  on_process_exit:392: exited: pid=3061 status=0 stoptime=0
+INFO  2020-12-04T00:22:26.896 2774  on_process_exit:392: exited: pid=3068 status=1 stoptime=0
+INFO  2020-12-04T00:22:26.909 2774  channel_create_event:200: new channel 21 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 21, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:26.917 2774  on_process_exit:392: exited: pid=3070 status=0 stoptime=0
+INFO  2020-12-04T00:22:28.783 2774  channel_create_event:200: new channel 22 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 22, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:28.791 2774  on_process_exit:392: exited: pid=3164 status=0 stoptime=0
+INFO  2020-12-04T00:22:28.995 2774  channel_create_event:200: new channel 23 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 23, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:29.004 2774  on_process_exit:392: exited: pid=3172 status=0 stoptime=0
+INFO  2020-12-04T00:22:29.119 2774  channel_create_event:200: new channel 24 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 24, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:29.129 2774  on_process_exit:392: exited: pid=3177 status=0 stoptime=0
+INFO  2020-12-04T00:22:30.537 2774  channel_create_event:200: new channel 25 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 25, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:30.563 2774  on_process_exit:392: exited: pid=3182 status=0 stoptime=0
+INFO  2020-12-04T00:22:31.342 2774  channel_create_event:200: new channel 26 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 26, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:31.370 2774  on_process_exit:392: exited: pid=3189 status=0 stoptime=0
+INFO  2020-12-04T00:22:32.879 2774  channel_create_event:200: new channel 27 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 27, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:32.903 2774  on_process_exit:392: exited: pid=3196 status=0 stoptime=0
+INFO  2020-12-04T00:22:34.029 2774  channel_create_event:200: new channel 28 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 28, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:34.055 2774  on_process_exit:392: exited: pid=3203 status=0 stoptime=0
+INFO  2020-12-04T00:22:36.098 2774  channel_create_event:200: new channel 29 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 29, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:36.108 2774  on_process_exit:392: exited: pid=3213 status=0 stoptime=0
+INFO  2020-12-04T00:22:39.069 2774  channel_create_event:200: new channel 30 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 30, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:39.093 2774  on_process_exit:392: exited: pid=3218 status=0 stoptime=0
+INFO  2020-12-04T00:22:41.747 2774  channel_create_event:200: new channel 31 (function gitgutter#process_buffer[19]..gitgutter#diff#run_diff[83]..gitgutter#async#execute:11) : {"id": 31, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:41.774 2774  on_process_exit:392: exited: pid=3225 status=0 stoptime=0
+INFO  2020-12-04T00:22:42.618 2774  channel_create_event:200: new channel 32 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 32, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:42.626 2774  on_process_exit:392: exited: pid=3238 status=0 stoptime=0
+INFO  2020-12-04T00:22:42.869 2774  channel_create_event:200: new channel 33 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 33, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:42.877 2774  on_process_exit:392: exited: pid=3243 status=0 stoptime=0
+INFO  2020-12-04T00:22:43.750 2774  channel_create_event:200: new channel 34 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 34, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:43.760 2774  on_process_exit:392: exited: pid=3254 status=0 stoptime=0
+INFO  2020-12-04T00:22:44.043 2774  channel_create_event:200: new channel 35 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 35, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:44.051 2774  on_process_exit:392: exited: pid=3268 status=0 stoptime=0
+INFO  2020-12-04T00:22:44.171 2774  channel_create_event:200: new channel 36 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 36, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:44.181 2774  on_process_exit:392: exited: pid=3273 status=0 stoptime=0
+INFO  2020-12-04T00:22:44.411 2774  channel_create_event:200: new channel 37 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 37, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:44.421 2774  on_process_exit:392: exited: pid=3281 status=0 stoptime=0
+INFO  2020-12-04T00:22:44.781 2774  channel_create_event:200: new channel 38 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 38, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:44.791 2774  on_process_exit:392: exited: pid=3292 status=0 stoptime=0
+INFO  2020-12-04T00:22:44.960 2774  channel_create_event:200: new channel 39 (function coc#rpc#async_request[4]..coc#util#do_complete[4]..coc#source#tmuxcomplete#complete[2]..tmuxcomplete#async#gather_candidates:8) : {"id": 39, "mode": "bytes", "stream": "job"}
+INFO  2020-12-04T00:22:44.969 2774  on_process_exit:392: exited: pid=3297 status=0 stoptime=0
+INFO  2020-12-04T00:22:47.220 2774  os_proc_tree_kill:96: sending SIGTERM to PID -2982
+INFO  2020-12-04T00:22:47.243 2774  on_process_exit:392: exited: pid=2982 status=143 stoptime=1565796685700
+INFO  2020-12-04T00:22:47.250 2774  mch_exit:99: Nvim exit: 0
