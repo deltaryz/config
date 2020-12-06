@@ -18,6 +18,7 @@ alias fz="ssh delta@floof.zone"
 alias hfz="ssh delta@home.floof.zone"
 alias cs="ssh delta@cameronseid.com"
 alias pi4="ssh delta@home.floof.zone -p 2222"
+alias lpc="ssh lauren@home.floof.zone -p 3333"
 
 # Distro-specific config
 set distrostring (cat /etc/issue)
