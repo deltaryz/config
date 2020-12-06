@@ -105,15 +105,17 @@ echo ""
 case $distrogeneric in
 
     "alpine" )
-        
+        sudo apk update
+        sudo apk add bash vim neovim fish git openssh mosh npm nodejs neofetch rsync tar net-tools
         ;;
 
     "debian" )
-
+        sudo apt update
+        sudo apt install bash vim neovim fish git openssh mosh npm nodejs neofetch rsync tar net-tools
         ;;
 
     "arch" )
-
+        sudo pacman -Sy bash vim neovim fish git openssh mosh npm nodejs neofetch rsync tar net-tools
         ;;
 
     * )
@@ -128,12 +130,19 @@ echo ""
 echo "* CONFIGURING DOTFILES"
 echo ""
 
+echo "Please ignore any errors about missing -old files"
+
 # set file paths
 dotprofile=$(realpath ./dotprofile)
 dotconfig=$(realpath ./dotconfig/)
 dotvimrc=$(realpath ./dotvimc)
 dottmuxconf=$(realpath ./dottmux.conf)
 dottmux=$(realpath ./dottmux.tgz)
+
+echo "Symlinking ~/.profile..."
+rm -rf ~/.profile-old
+mv ~/.profile ~/.profile-old
+ln -s $dotprofile ~/.profile
 
 echo "Symlinking ~/.config..."
 rm -rf ~/.config-old
