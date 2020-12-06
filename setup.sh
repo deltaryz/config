@@ -84,8 +84,45 @@ case $distrostring in
 
 esac
 
-echo "Distro: $distro"
-echo "Generic Distro: $distrogeneric"
+currentuser=$(whoami)
+
+echo "User:              $currentuser"
+echo "Distro:            $distro"
+echo "Generic Distro:    $distrogeneric"
+echo ""
+
+echo "Adding $currentuser to sudoers..."
+sudo grep -v "$currentuser" /etc/sudoers > ./tempsudoers
+echo "$currentuser ALL=(ALL:ALL) NOPASSWD:ALL" | tee -a ./tempsudoers
+sudo chown root ./tempsudoers
+sudo mv ./tempsudoers /etc/sudoers
+
+echo ""
+echo "* CONFIGURING PACKAGES"
+echo ""
+
+
+case $distrogeneric in
+
+    "alpine" )
+        
+        ;;
+
+    "debian" )
+
+        ;;
+
+    "arch" )
+
+        ;;
+
+    * )
+        echo "! ! ! - WARNING - ! ! !"
+        echo "This distro was not recognized."
+        echo "No packages will be installed."
+        ;;
+
+esac
 
 echo ""
 echo "* CONFIGURING DOTFILES"
