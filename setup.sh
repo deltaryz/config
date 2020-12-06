@@ -40,6 +40,54 @@ echo "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"
 echo ">>             Now starting setup!!             <<"
 echo "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"
 echo ""
+
+# detect what distro we're running on
+distrostring=$(cat /etc/issue)
+
+case $distrostring in
+
+    # Alpine
+    *"Alpine"* )
+        distrogeneric="alpine"
+        distro="alpine"
+        ;;
+
+    # Debian
+    *"Debian"* )
+        distrogeneric="debian"
+        distro="debian"
+        ;;
+
+    # Ubuntu
+    *"Ubuntu"* )
+        distrogeneric="debian"
+        distro="alpine"
+        ;;
+
+    # Arch
+    *"Arch"* )
+        distrogeneric="arch"
+        distro="arch"
+        ;;
+
+    # Manjaro
+    *"Manjaro"* )
+        distrogeneric="arch"
+        distro="manjaro"
+        ;;
+
+    # Unknown / Other
+    * )
+        distrogeneric="unknown"
+        distro="unknown"
+        ;;
+
+esac
+
+echo "Distro: $distro"
+echo "Generic Distro: $distrogeneric"
+
+echo ""
 echo "* CONFIGURING DOTFILES"
 echo ""
 
