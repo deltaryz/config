@@ -3,4 +3,5 @@ node_modules/
 dotconfig/configstore/
 dotconfig/coc/
 dotconfig/TabNine/
+dotconfig/qBittorrent/
 fish_variables
