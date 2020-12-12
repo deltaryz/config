@@ -21,7 +21,11 @@ alias pi4="ssh delta@home.floof.zone -p 2222"
 alias lpc="ssh lauren@home.floof.zone -p 3333"
 
 # Distro-specific config
-set distrostring (cat /etc/issue)
+if test -e /etc/issue
+    set distrostring (cat /etc/issue)
+else
+    set distrostring "unknown"
+end
 
 # Alpine
 if string match -q "*Alpine*" $distrostring
@@ -51,6 +55,8 @@ end
 alias fz="mosh delta@floof.zone"
 alias cs="mosh delta@cameronseid.com"
 alias hfz="mosh delta@home.floof.zone"
+alias ee="mosh delta@eevee.email"
+alias nazo="ssh ori@nazo.floof.zone"
 
 
 # - - - - - - -
