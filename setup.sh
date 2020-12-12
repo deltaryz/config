@@ -42,7 +42,11 @@ echo "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"
 echo ""
 
 # detect what distro we're running on
-distrostring=$(cat /etc/issue)
+if test -e /etc/issue
+    distrostring=$(cat /etc/issue)
+else
+    distrostring="unknown"
+fi
 
 case $distrostring in
 
@@ -91,11 +95,13 @@ echo "Distro:            $distro"
 echo "Generic Distro:    $distrogeneric"
 echo ""
 
-echo "Adding $currentuser to sudoers..."
-sudo grep -v "$currentuser" /etc/sudoers > ./tempsudoers
-echo "$currentuser ALL=(ALL:ALL) NOPASSWD:ALL" | tee -a ./tempsudoers
-sudo chown root ./tempsudoers
-sudo mv ./tempsudoers /etc/sudoers
+if [ "$distrostring" != "unknown" && "$distrostring" != "" ]
+    echo "Adding $currentuser to sudoers..."
+    sudo grep -v "$currentuser" /etc/sudoers > ./tempsudoers
+    echo "$currentuser ALL=(ALL:ALL) NOPASSWD:ALL" | tee -a ./tempsudoers
+    sudo chown root ./tempsudoers
+    sudo mv ./tempsudoers /etc/sudoers
+fi
 
 echo ""
 echo "* CONFIGURING PACKAGES"
