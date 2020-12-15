@@ -42,7 +42,8 @@ echo "-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --"
 echo ""
 
 # detect what distro we're running on
-if test -e /etc/issue
+if test -e /etc/issue 
+then
     distrostring=$(cat /etc/issue)
 else
     distrostring="unknown"
