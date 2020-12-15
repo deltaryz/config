@@ -96,7 +96,7 @@ echo "Distro:            $distro"
 echo "Generic Distro:    $distrogeneric"
 echo ""
 
-if [ "$distrostring" != "unknown" && "$distrostring" != "" ]
+if [ "$distrostring" != "unknown" && "$distrostring" != "" ]; then
     echo "Adding $currentuser to sudoers..."
     sudo grep -v "$currentuser" /etc/sudoers > ./tempsudoers
     echo "$currentuser ALL=(ALL:ALL) NOPASSWD:ALL" | tee -a ./tempsudoers
