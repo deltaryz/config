@@ -10,6 +10,7 @@
 # Command flags
 alias la="ls -hal"
 alias rsync="rsync -av --progress"
+alias r2="arch -x86_64" # rosetta2 for m1 macs
 # Programs
 alias vim="nvim"
 alias nano="nvim"
