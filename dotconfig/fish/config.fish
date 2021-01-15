@@ -11,6 +11,8 @@
 alias la="ls -hal"
 alias rsync="rsync -av --progress"
 alias r2="arch -x86_64" # rosetta2 for m1 macs
+alias dcu="docker-compose up -d"
+alias dcd="docker-compose down"
 # Programs
 alias vim="nvim"
 alias nano="nvim"
