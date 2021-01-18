@@ -20,8 +20,8 @@ filetype off
 set nocompatible
 set number
 set autoindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 autocmd FileType * set formatoptions-=cro
@@ -30,8 +30,11 @@ autocmd FileType * set formatoptions-=cro
 imap <C-s> <Esc>:w!<CR>i
 nmap <C-s> <Esc>:w!<cr>
 
-" Ctrl-R to reload config
+" Ctrl-\ to reload config
 nnoremap <C-\> <Esc>:so ~/.config/nvim/init.vim<CR>
+
+" Ctrl-P to format
+nmap <C-p> <Esc>:CocCommand prettier.formatFile<cr>
 
 " Bootstap Plugins
 let autoload_plug_path = stdpath('data') . '/site/autoload/plug.vim'
