@@ -9,6 +9,9 @@ endfor
 " Use `fd` to escape insert mode 
 :imap fd <Esc>
 
+" use `;;` to advance buffers
+:map ;; :bn<cr>
+
 " General config
 :highlight LineNr ctermfg=blue
 syntax on
@@ -25,6 +28,7 @@ autocmd FileType * set formatoptions-=cro
 
 " Ctrl-S to save while in insert mode
 imap <C-s> <Esc>:w!<CR>i
+nmap <C-s> <Esc>:w!<cr>
 
 " Ctrl-R to reload config
 nnoremap <C-\> <Esc>:so ~/.config/nvim/init.vim<CR>
