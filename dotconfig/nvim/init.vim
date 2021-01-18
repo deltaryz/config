@@ -13,7 +13,6 @@ endfor
 :map ;; :bn<cr>
 
 " General config
-:highlight LineNr ctermfg=blue
 syntax on
 syntax enable
 filetype off
@@ -23,6 +22,7 @@ set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set signcolumn=yes
 
 autocmd FileType * set formatoptions-=cro
 
@@ -65,9 +65,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'psliwka/vim-smoothie'
-Plug 'mhinz/vim-startify'
+" Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-tabnine coc-tsserver coc-json coc-git coc-fish coc-prettier coc-html coc-css'}
+Plug 'vim-airline/vim-airline-themes'
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-tabnine coc-tsserver coc-json coc-git coc-fish coc-prettier coc-html coc-css coc-highlight'}
 
 
 " -------
@@ -78,6 +79,24 @@ unlet pluginsPath
 
 " PLUGIN CONFIG
 " -------------
+
+" coc
+hi CocFloating ctermbg=237
+hi Pmenu ctermbg=54
+hi Pmenu ctermfg=white
+highlight! LineNr ctermfg=blue
+highlight! link SignColumn none
+hi DiffAdd ctermbg=234 ctermfg=green
+hi GitGutterAdd ctermbg=234 ctermfg=green
+hi DiffDelete ctermbg=234 ctermfg=red
+hi GitGutterDelete ctermbg=234 ctermfg=red
+hi DiffChange ctermbg=234 ctermfg=yellow
+hi GitGutterChange ctermbg=234 ctermfg=yellow
+
+let g:gitgutter_sign_allow_clobber = 1
+let g:gitgutter_set_sign_backgrounds = 1
+
+let g:airline_theme='raven'
 
 " Deoplete
 let g:deoplete#enable_at_startup = 1
