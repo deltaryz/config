@@ -23,6 +23,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set signcolumn=yes
+set mouse=a
 
 autocmd FileType * set formatoptions-=cro
 
