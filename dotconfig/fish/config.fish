@@ -99,3 +99,6 @@ function silentexec -d "Run a command silently, piping output to /dev/null"
     $argv >/dev/null ^&1
     return $status
 end
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+

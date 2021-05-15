@@ -4,6 +4,7 @@
   "beta_enabled": "No",
   "ignore_all_lsp": false,
   "creation_time": "2020-12-04T00:22:26.892028400Z",
+  "guuid": "ba4aebffa543d28a3fc41ff87a4756072def074d6655ceaf192d02616ddbbfc2",
   "semantic_status": {},
   "enable_telemetry": true,
   "user_understands_that_enabling_tabnine_cloud_sends_code_to_tabnine_servers": false,
@@ -12,6 +13,8 @@
   "tabnine_cloud_certificate_domain": null,
   "tabnine_cloud_port": null,
   "cloud_whitelist": [],
+  "num_of_suggestions": null,
+  "multiline_suggestions": null,
   "api_key": null,
   "api_base_url": null,
   "binary_update_interval_seconds": null,
@@ -24,5 +27,6 @@
   "generation": 32,
   "local_model_size": null,
   "model_hash_override": null,
-  "local_indexing": null
+  "local_indexing": null,
+  "heartbeat_interval_seconds": null
 }
